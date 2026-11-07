@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color: darkblue;
+}
+.movie container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.movie{
+    background-color: white;
+    border: 5px;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.movie img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.movie h2{
+    color: darkred;
+}
+.movie p{
+    color: gray;
+}
+.movie h3{
+    color: green;
+}
